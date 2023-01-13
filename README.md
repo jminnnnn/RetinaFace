@@ -1,13 +1,15 @@
 # RetinaFace: 
 These are codes of RetinaFace used for blurring images of Figure Skating and CrossFit motions as a part of the joint project with Elancer Inc.
-
+Note that the codes in this github are gathered from various other sources on Github. (https://github.com/deepinsight/insightface and etc.)
+Paper: RetinaFace: Single-stage Dense Face Localisation in the Wild (https://paperswithcode.com/paper/190500641)
+The code is modified to be used as face blurring tool. 
 
 ## Project Description
 This project aims to blur face of action models in every video. The steps are as follows:
-Step 1: we split each video into frames(images)
-Step 2: use RetinaFace to find face coordinates
-Step 3: use OpenCV library to blur the facial area given from the second step
-Step 4: Compress the image frames as tar file
+* Step 1: we split each video into frames(images)
+* Step 2: use RetinaFace to find face coordinates
+* Step 3: use OpenCV library to blur the facial area given from the second step
+* Step 4: Compress the image frames as tar file
 
 
 ## Model
